@@ -1,28 +1,35 @@
 body {
-  font-family: Helvetica;
+  font-family: Roboto, Helvetica;
   margin: 0 auto;
   width: 95%;
 }
 main {
   margin: 0 auto;
+  max-width: 700px;
   min-width: 320px;
   width: 50%;
 }
 h1, h2, h3 {
-  font-family: Courier;
+  font-family: Montserrat;
   margin: 0.5em auto;
   text-align: center;
   width: 90%;
 }
 h1 { font-size: 4em; }
-h2 { font-size: 2em; }
+h2 {
+  border-bottom: 2px solid black;
+  font-size: 2em;
+}
 h3 { font-size: 1.5em; }
 p {
   text-align: left;
-  margin: 2em 0;  
+  margin: 2em 0;
+}
+p.email-cta {
+  text-align: center;
 }
 ul {
-  margin: 1em 0;
+  margin: 1em 0 0 2em;
 }
 ul li {
   list-style-type: disc;
